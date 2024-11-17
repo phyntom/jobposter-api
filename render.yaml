@@ -1,0 +1,11 @@
+previews:
+   generation: automatic
+   expireAfterDays: 3
+services:
+   - type: web
+     name: jobposter-api
+     runtime: node
+     repo:
+     plan: free
+     buildCommand: 'npm install && npm run build'
+     startCommand: 'npm start'
