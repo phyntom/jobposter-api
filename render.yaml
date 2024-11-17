@@ -5,7 +5,7 @@ services:
    - type: web
      name: jobposter-api
      runtime: node
-     repo:
+     repo: https://github.com/phyntom/jobposter-api.git
      plan: free
      buildCommand: 'npm install && npm run build'
      startCommand: 'npm start'

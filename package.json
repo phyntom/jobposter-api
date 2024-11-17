@@ -4,8 +4,9 @@
    "description": "Small job api for demo purpose",
    "main": "index.js",
    "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js",
+      "start": "node ./index.js",
+      "dev": "nodemon ./index.js",
+      "build": "npm install",
       "lint": "eslint . --ext js --report-unused-disable-directives --max-warnings 0"
    },
    "keywords": [
